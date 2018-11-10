@@ -1,6 +1,6 @@
-package com.coinomi.core.coins;
+package com.bitcoinfinal.core.coins;
 
-import com.coinomi.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
 
 /**
  * @author John L. Jegutanis
