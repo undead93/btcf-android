@@ -1,11 +1,11 @@
-package com.coinomi.core.coins.families;
+package com.bitcoinfinal.core.coins.families;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.messages.MessageFactory;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.families.nxt.NxtAddress;
-import com.coinomi.core.wallet.families.nxt.NxtTxMessage;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.messages.MessageFactory;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtAddress;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtTxMessage;
 
 import javax.annotation.Nullable;
 

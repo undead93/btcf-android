@@ -1,10 +1,10 @@
-package com.coinomi.core.exchange.shapeshift.data;
+package com.bitcoinfinal.core.exchange.shapeshift.data;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 
 import org.json.JSONException;
 import org.json.JSONObject;

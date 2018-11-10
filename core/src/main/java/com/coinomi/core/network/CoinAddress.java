@@ -1,7 +1,7 @@
-package com.coinomi.core.network;
+package com.bitcoinfinal.core.network;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.stratumj.ServerAddress;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.stratumj.ServerAddress;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

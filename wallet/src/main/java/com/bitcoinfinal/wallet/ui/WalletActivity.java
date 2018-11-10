@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -19,22 +19,22 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.uri.CoinURI;
-import com.coinomi.core.uri.CoinURIParseException;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.SerializedKey;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.service.CoinService;
-import com.coinomi.wallet.service.CoinServiceImpl;
-import com.coinomi.wallet.tasks.CheckUpdateTask;
-import com.coinomi.wallet.ui.dialogs.TermsOfUseDialog;
-import com.coinomi.wallet.util.SystemUtils;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.uri.CoinURI;
+import com.bitcoinfinal.core.uri.CoinURIParseException;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.SerializedKey;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.service.CoinService;
+import com.bitcoinfinal.wallet.service.CoinServiceImpl;
+import com.bitcoinfinal.wallet.tasks.CheckUpdateTask;
+import com.bitcoinfinal.wallet.ui.dialogs.TermsOfUseDialog;
+import com.bitcoinfinal.wallet.util.SystemUtils;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.bitcoinj.core.Transaction;
 import org.slf4j.Logger;
@@ -45,10 +45,10 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.wallet.ui.NavDrawerItemType.ITEM_COIN;
-import static com.coinomi.wallet.ui.NavDrawerItemType.ITEM_OVERVIEW;
-import static com.coinomi.wallet.ui.NavDrawerItemType.ITEM_SECTION_TITLE;
-import static com.coinomi.wallet.ui.NavDrawerItemType.ITEM_TRADE;
+import static com.bitcoinfinal.wallet.ui.NavDrawerItemType.ITEM_COIN;
+import static com.bitcoinfinal.wallet.ui.NavDrawerItemType.ITEM_OVERVIEW;
+import static com.bitcoinfinal.wallet.ui.NavDrawerItemType.ITEM_SECTION_TITLE;
+import static com.bitcoinfinal.wallet.ui.NavDrawerItemType.ITEM_TRADE;
 
 
 /**

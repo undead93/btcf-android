@@ -1,12 +1,12 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.FeePolicy;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.wallet.families.bitcoin.BitSendRequest;
-import com.coinomi.core.wallet.families.bitcoin.CoinSelection;
-import com.coinomi.core.wallet.families.bitcoin.CoinSelector;
-import com.coinomi.core.wallet.families.bitcoin.OutPointOutput;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.FeePolicy;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitSendRequest;
+import com.bitcoinfinal.core.wallet.families.bitcoin.CoinSelection;
+import com.bitcoinfinal.core.wallet.families.bitcoin.CoinSelector;
+import com.bitcoinfinal.core.wallet.families.bitcoin.OutPointOutput;
 import com.google.common.collect.Lists;
 
 import org.bitcoinj.core.Address;
@@ -35,9 +35,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 
-import static com.coinomi.core.Preconditions.checkArgument;
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkArgument;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

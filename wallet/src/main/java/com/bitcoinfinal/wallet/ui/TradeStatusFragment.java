@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -29,19 +29,19 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.exchange.shapeshift.ShapeShift;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftException;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftTxStatus;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeHistoryProvider;
-import com.coinomi.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.exchange.shapeshift.ShapeShift;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftException;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftTxStatus;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeHistoryProvider;
+import com.bitcoinfinal.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -51,10 +51,10 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.wallet.util.UiUtils.setGone;
-import static com.coinomi.wallet.util.UiUtils.setInvisible;
-import static com.coinomi.wallet.util.UiUtils.setVisible;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.wallet.util.UiUtils.setGone;
+import static com.bitcoinfinal.wallet.util.UiUtils.setInvisible;
+import static com.bitcoinfinal.wallet.util.UiUtils.setVisible;
 
 /**
  * @author John L. Jegutanis
@@ -210,9 +210,9 @@ public class TradeStatusFragment extends Fragment {
         exchangeText = (TextView) view.findViewById(R.id.trade_exchange_status_text);
         errorIcon = (TextView) view.findViewById(R.id.trade_error_status_icon);
         errorText = (TextView) view.findViewById(R.id.trade_error_status_text);
-        Fonts.setTypeface(depositIcon, Fonts.Font.COINOMI_FONT_ICONS);
-        Fonts.setTypeface(exchangeIcon, Fonts.Font.COINOMI_FONT_ICONS);
-        Fonts.setTypeface(errorIcon, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(depositIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
+        Fonts.setTypeface(exchangeIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
+        Fonts.setTypeface(errorIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
 
         viewTransaction = (Button) view.findViewById(R.id.trade_view_transaction);
         emailReceipt = (Button) view.findViewById(R.id.trade_email_receipt);

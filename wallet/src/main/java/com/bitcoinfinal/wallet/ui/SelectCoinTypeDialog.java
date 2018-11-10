@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -9,13 +9,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.ui.widget.AddressView;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.ui.widget.AddressView;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

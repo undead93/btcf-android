@@ -14,13 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.wallet.families.bitcoin.CoinSelector;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.wallet.families.bitcoin.CoinSelector;
 import com.google.common.base.Objects;
 import com.google.common.base.Objects.ToStringHelper;
 

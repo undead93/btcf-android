@@ -1,14 +1,14 @@
-package com.coinomi.wallet;
+package com.bitcoinfinal.wallet;
 
 import android.text.format.DateUtils;
 
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.BitcoinFinalMain;
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.network.CoinAddress;
-import com.coinomi.stratumj.ServerAddress;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.BitcoinFinalMain;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.network.CoinAddress;
+import com.bitcoinfinal.stratumj.ServerAddress;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
@@ -88,8 +88,8 @@ public class Constants {
 
     // TODO move to resource files
     public static final List<CoinAddress> DEFAULT_COINS_SERVERS = ImmutableList.of(
-            new CoinAddress(BitcoinMain.get(),      new ServerAddress("btc-cce-1.coinomi.net", 5001),
-                                                    new ServerAddress("btc-cce-2.coinomi.net", 5001)),
+            new CoinAddress(BitcoinMain.get(),      new ServerAddress("btc-cce-1.bitcoinfinal.net", 5001),
+                                                    new ServerAddress("btc-cce-2.bitcoinfinal.net", 5001)),
             new CoinAddress(BitcoinFinalMain.get(), new ServerAddress("btcf1.ddns.net", 5001),
                                                     new ServerAddress("btcf2.ddns.net", 5001)),
     );

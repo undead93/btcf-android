@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,15 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.uri.CoinURI;
-import com.coinomi.core.uri.CoinURIParseException;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.widget.CoinListItem;
-import com.coinomi.wallet.util.UiUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.uri.CoinURI;
+import com.bitcoinfinal.core.uri.CoinURIParseException;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.widget.CoinListItem;
+import com.bitcoinfinal.wallet.util.UiUtils;
 
 /**
  * @author John L. Jegutanis

@@ -1,4 +1,4 @@
-package com.coinomi.wallet;
+package com.bitcoinfinal.wallet;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -26,8 +26,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 
 import java.util.List;
 

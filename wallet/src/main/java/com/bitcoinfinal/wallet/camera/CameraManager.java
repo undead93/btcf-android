@@ -1,4 +1,4 @@
-package com.coinomi.wallet.camera;
+package com.bitcoinfinal.wallet.camera;
 
 
 /*

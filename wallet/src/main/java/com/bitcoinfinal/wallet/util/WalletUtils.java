@@ -1,4 +1,4 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -24,16 +24,16 @@ import android.text.Spannable;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.util.Currencies;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractTransaction.AbstractOutput;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.util.Currencies;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractTransaction.AbstractOutput;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
 
 import org.bitcoinj.core.Sha256Hash;
 
@@ -48,7 +48,7 @@ import javax.annotation.CheckForNull;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author Andreas Schildbach

@@ -1,8 +1,8 @@
-package com.coinomi.stratumj;
+package com.bitcoinfinal.stratumj;
 
 
-import com.coinomi.stratumj.messages.CallMessage;
-import com.coinomi.stratumj.messages.ResultMessage;
+import com.bitcoinfinal.stratumj.messages.CallMessage;
+import com.bitcoinfinal.stratumj.messages.ResultMessage;
 import org.bitcoinj.utils.BriefLogFormatter;
 
 import com.google.common.util.concurrent.FutureCallback;

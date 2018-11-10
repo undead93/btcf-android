@@ -16,17 +16,17 @@
  * 
  */
 
-package com.coinomi.core.uri;
+package com.bitcoinfinal.core.uri;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
-import com.coinomi.core.wallet.families.nxt.NxtAddress;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitAddress;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtAddress;
 import com.google.common.collect.Lists;
 
 import org.slf4j.Logger;
@@ -44,8 +44,8 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * <p>Provides a standard implementation of a Bitcoin URI with support for the following:</p>
@@ -383,7 +383,7 @@ public class CoinURI implements Serializable {
 
     /**
      * Same as {@link #getType()} but throws an exception if the uri has no type
-     * @return The {@link com.coinomi.core.coins.CoinType} of this URI
+     * @return The {@link com.bitcoinfinal.core.coins.CoinType} of this URI
      */
     public CoinType getTypeRequired() throws CoinURIParseException {
         if (!hasType()) {
@@ -393,7 +393,7 @@ public class CoinURI implements Serializable {
     }
 
     /**
-     * @return The {@link com.coinomi.core.coins.CoinType} of this URI
+     * @return The {@link com.bitcoinfinal.core.coins.CoinType} of this URI
      */
     @Nullable
     public CoinType getType() {

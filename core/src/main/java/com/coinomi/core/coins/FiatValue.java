@@ -1,4 +1,4 @@
-package com.coinomi.core.coins;
+package com.bitcoinfinal.core.coins;
 
 import org.bitcoinj.utils.Fiat;
 

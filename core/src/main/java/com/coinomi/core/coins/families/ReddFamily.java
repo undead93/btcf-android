@@ -1,4 +1,4 @@
-package com.coinomi.core.coins.families;
+package com.bitcoinfinal.core.coins.families;
 
 /**
  * @author John L. Jegutanis

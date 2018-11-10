@@ -1,4 +1,4 @@
-package com.coinomi.core.exchange.shapeshift;
+package com.bitcoinfinal.core.exchange.shapeshift;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.Lists;

@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name" translatable="false">BitcoinFinal</string>
     <string name="app_package" translatable="false">com.bitcoinfinal.wallet</string>
-    <string name="coinomi_website" translatable="false">https://bitcoinfinal.net</string>
+    <string name="bitcoinfinal_website" translatable="false">https://bitcoinfinal.net</string>
     <string name="almost_equal_to" translatable="false">≈</string>
     <string name="action_scan_qr_code">Scan</string>
     <string name="action_share">Share</string>
@@ -212,7 +212,7 @@
     <string name="about_credits_crypto_icons">Crypto-icons by Chris Shepherd\nhttps://github.com/shphrd/crypto-icons</string>
     <string name="about_credits_font_icons">Font-icons by Daniel Bruce\nhttp://www.entypo.com</string>
     <string name="about_credits_exchange_rates">Exchange rates provided by\nhttp://www.cryptocoincharts.info/\nhttps://bitcoinaverage.com/</string>
-    <string name="about_coinomi_copyright" translatable="false">\u00A9 2018 BitcoinFinal</string>
+    <string name="about_bitcoinfinal_copyright" translatable="false">\u00A9 2018 BitcoinFinal</string>
     <!-- Add Coins -->
     <string name="title_activity_add_coins">Add coins</string>
     <!-- %1$s is the coin name e.g. ... create a Bitcoin account ... -->

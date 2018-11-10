@@ -1,12 +1,12 @@
-package com.coinomi.wallet;
+package com.bitcoinfinal.wallet;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.text.format.DateUtils;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.wallet.util.WalletUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.wallet.util.WalletUtils;
 import com.google.common.collect.ImmutableMap;
 
 import org.json.JSONException;

@@ -1,6 +1,6 @@
-package com.coinomi.core.network;
+package com.bitcoinfinal.core.network;
 
-import com.coinomi.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.CoinType;
 
 import java.util.Date;
 

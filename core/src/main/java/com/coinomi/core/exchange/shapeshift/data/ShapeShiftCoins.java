@@ -1,7 +1,7 @@
-package com.coinomi.core.exchange.shapeshift.data;
+package com.bitcoinfinal.core.exchange.shapeshift.data;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
 import com.google.common.collect.ImmutableList;
 
 import org.json.JSONObject;

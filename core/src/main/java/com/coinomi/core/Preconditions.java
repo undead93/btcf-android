@@ -1,4 +1,4 @@
-package com.coinomi.core;
+package com.bitcoinfinal.core;
 
 
 /*

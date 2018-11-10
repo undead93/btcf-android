@@ -1,9 +1,9 @@
-package com.coinomi.stratumj;
+package com.bitcoinfinal.stratumj;
 
-import com.coinomi.stratumj.messages.BaseMessage;
-import com.coinomi.stratumj.messages.CallMessage;
-import com.coinomi.stratumj.messages.MessageException;
-import com.coinomi.stratumj.messages.ResultMessage;
+import com.bitcoinfinal.stratumj.messages.BaseMessage;
+import com.bitcoinfinal.stratumj.messages.CallMessage;
+import com.bitcoinfinal.stratumj.messages.MessageException;
+import com.bitcoinfinal.stratumj.messages.ResultMessage;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.AbstractExecutionThreadService;

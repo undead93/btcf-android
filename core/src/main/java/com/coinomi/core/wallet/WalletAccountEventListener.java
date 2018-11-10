@@ -1,6 +1,6 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.Value;
+import com.bitcoinfinal.core.coins.Value;
 
 /**
  * @author John L. Jegutanis

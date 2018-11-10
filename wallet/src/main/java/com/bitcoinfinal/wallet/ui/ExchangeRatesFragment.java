@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -37,19 +37,19 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeRatesProvider;
-import com.coinomi.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.widget.Amount;
-import com.coinomi.wallet.util.WalletUtils;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.widget.Amount;
+import com.bitcoinfinal.wallet.util.WalletUtils;
 
 import org.bitcoinj.core.Coin;
 
@@ -64,7 +64,7 @@ public final class ExchangeRatesFragment extends ListFragment implements OnShare
     private Context context;
     private WalletApplication application;
     private Configuration config;
-    private com.coinomi.core.wallet.Wallet wallet;
+    private com.bitcoinfinal.core.wallet.Wallet wallet;
     private Uri contentUri;
     private LoaderManager loaderManager;
 

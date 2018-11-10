@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -12,15 +12,15 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.service.CoinService;
-import com.coinomi.wallet.service.CoinServiceImpl;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.service.CoinService;
+import com.bitcoinfinal.wallet.service.CoinServiceImpl;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.bitcoinj.crypto.KeyCrypterScrypt;
 

@@ -1,16 +1,16 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.tasks.AddCoinTask;
-import com.coinomi.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.tasks.AddCoinTask;
+import com.bitcoinfinal.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
 
 import org.bitcoinj.crypto.KeyCrypterException;
 

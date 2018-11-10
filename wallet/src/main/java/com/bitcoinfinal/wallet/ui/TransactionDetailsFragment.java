@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 
 import android.content.Intent;
@@ -15,18 +15,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractTransaction.AbstractOutput;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.util.ThrottlingWalletChangeListener;
-import com.coinomi.wallet.util.TimeUtils;
-import com.coinomi.wallet.util.UiUtils;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractTransaction.AbstractOutput;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.util.ThrottlingWalletChangeListener;
+import com.bitcoinfinal.wallet.util.TimeUtils;
+import com.bitcoinfinal.wallet.util.UiUtils;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.acra.ACRA;
 import org.slf4j.Logger;

@@ -1,8 +1,8 @@
-package com.coinomi.core.network;
+package com.bitcoinfinal.core.network;
 
-import com.coinomi.core.network.ServerClient.HistoryTx;
-import com.coinomi.core.network.ServerClient.UnspentTx;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.network.ServerClient.HistoryTx;
+import com.bitcoinfinal.core.network.ServerClient.UnspentTx;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 import com.google.common.collect.Sets;
 
 import org.bitcoinj.core.Sha256Hash;

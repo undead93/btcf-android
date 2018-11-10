@@ -1,15 +1,15 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.BlackcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DigitalcoinMain;
-import com.coinomi.core.coins.FeathercoinMain;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.coins.PeercoinMain;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.BlackcoinMain;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.DigitalcoinMain;
+import com.bitcoinfinal.core.coins.FeathercoinMain;
+import com.bitcoinfinal.core.coins.LitecoinMain;
+import com.bitcoinfinal.core.coins.NuBitsMain;
+import com.bitcoinfinal.core.coins.PeercoinMain;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Coin;
 import org.junit.Test;

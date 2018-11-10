@@ -1,4 +1,4 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 import android.content.res.AssetManager;
 import android.graphics.Paint;
@@ -16,7 +16,7 @@ public class Fonts {
     private final static HashMap<Font, Typeface> typefaces = new HashMap<Font, Typeface>();
 
     public enum Font {
-        COINOMI_FONT_ICONS("fonts/coinomi-font-icons.ttf");
+        bitcoinfinal_FONT_ICONS("fonts/bitcoinfinal-font-icons.ttf");
 
         private final String fontPath;
 

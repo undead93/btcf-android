@@ -1,4 +1,4 @@
-package com.coinomi.core.exceptions;
+package com.bitcoinfinal.core.exceptions;
 
 /**
  * @author John L. Jegutanis

@@ -1,6 +1,6 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.bitcoinfinal.core.wallet.families.bitcoin;
 
-import com.coinomi.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.CoinType;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.NetworkParameters;

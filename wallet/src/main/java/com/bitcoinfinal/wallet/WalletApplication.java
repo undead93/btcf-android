@@ -1,4 +1,4 @@
-package com.coinomi.wallet;
+package com.bitcoinfinal.wallet;
 
 import android.app.ActivityManager;
 import android.app.Application;
@@ -14,19 +14,19 @@ import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exchange.shapeshift.ShapeShift;
-import com.coinomi.core.util.HardwareSoftwareCompliance;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.core.wallet.WalletProtobufSerializer;
-import com.coinomi.wallet.service.CoinService;
-import com.coinomi.wallet.service.CoinServiceImpl;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.LinuxSecureRandom;
-import com.coinomi.wallet.util.NetworkUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exchange.shapeshift.ShapeShift;
+import com.bitcoinfinal.core.util.HardwareSoftwareCompliance;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.WalletProtobufSerializer;
+import com.bitcoinfinal.wallet.service.CoinService;
+import com.bitcoinfinal.wallet.service.CoinServiceImpl;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.LinuxSecureRandom;
+import com.bitcoinfinal.wallet.util.NetworkUtils;
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.Files;
 

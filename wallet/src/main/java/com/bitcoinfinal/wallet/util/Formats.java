@@ -1,4 +1,4 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 /*
  * Copyright 2014 the original author or authors.
@@ -18,7 +18,7 @@ package com.coinomi.wallet.util;
  */
 
 
-import com.coinomi.wallet.Constants;
+import com.bitcoinfinal.wallet.Constants;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

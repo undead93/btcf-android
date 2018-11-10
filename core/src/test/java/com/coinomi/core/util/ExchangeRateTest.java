@@ -1,4 +1,4 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
 /*
  * Copyright 2014 Andreas Schildbach
@@ -17,13 +17,13 @@ package com.coinomi.core.util;
  * limitations under the License.
  */
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.FiatType;
-import com.coinomi.core.coins.FiatValue;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.coins.Value;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.FiatType;
+import com.bitcoinfinal.core.coins.FiatValue;
+import com.bitcoinfinal.core.coins.LitecoinMain;
+import com.bitcoinfinal.core.coins.NuBitsMain;
+import com.bitcoinfinal.core.coins.Value;
 
 import org.junit.Test;
 

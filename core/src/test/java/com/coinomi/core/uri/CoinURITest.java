@@ -1,4 +1,4 @@
-package com.coinomi.core.uri;
+package com.bitcoinfinal.core.uri;
 
 /*
  * Copyright 2012, 2014 the original author or authors.
@@ -18,19 +18,19 @@ package com.coinomi.core.uri;
  * 
  */
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.BitcoinTest;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DashMain;
-import com.coinomi.core.coins.DogecoinMain;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.coins.NuSharesMain;
-import com.coinomi.core.coins.NxtMain;
-import com.coinomi.core.coins.PeercoinMain;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
-import com.coinomi.core.wallet.families.nxt.NxtAddress;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.BitcoinTest;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.DashMain;
+import com.bitcoinfinal.core.coins.DogecoinMain;
+import com.bitcoinfinal.core.coins.LitecoinMain;
+import com.bitcoinfinal.core.coins.NuBitsMain;
+import com.bitcoinfinal.core.coins.NuSharesMain;
+import com.bitcoinfinal.core.coins.NxtMain;
+import com.bitcoinfinal.core.coins.PeercoinMain;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitAddress;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtAddress;
 
 import org.bitcoinj.core.Coin;
 import org.junit.Test;
@@ -38,7 +38,7 @@ import org.spongycastle.util.encoders.Hex;
 
 import java.io.UnsupportedEncodingException;
 
-import static com.coinomi.core.util.BitAddressUtils.getHash160;
+import static com.bitcoinfinal.core.util.BitAddressUtils.getHash160;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
@@ -521,21 +521,21 @@ public class CoinURITest {
 
     @Test
     public void testAddressRequest() throws Exception {
-        CoinURI uri = new CoinURI(BTC, "bitcoin:?req-addressrequest=https%3A%2F%2Fcoinomi.com");
+        CoinURI uri = new CoinURI(BTC, "bitcoin:?req-addressrequest=https%3A%2F%2Fbitcoinfinal.com");
         assertTrue(uri.isAddressRequest());
         assertNull(uri.getAddress());
         assertEquals(BTC, uri.getType());
-        assertEquals("https://coinomi.com", uri.getAddressRequestUri().toString());
-        assertEquals("https://coinomi.com?address=" + MAINNET_GOOD_ADDRESS,
+        assertEquals("https://bitcoinfinal.com", uri.getAddressRequestUri().toString());
+        assertEquals("https://bitcoinfinal.com?address=" + MAINNET_GOOD_ADDRESS,
                 uri.getAddressRequestUriResponse(MAINNET_GOOD_ADDRESS).toString());
 
         // Reply URI has path and query
-        uri = new CoinURI("bitcoin:?req-addressrequest=https%3A%2F%2Fcoinomi.com%2Fsome-path%3Fabc%3Dxyz");
+        uri = new CoinURI("bitcoin:?req-addressrequest=https%3A%2F%2Fbitcoinfinal.com%2Fsome-path%3Fabc%3Dxyz");
         assertTrue(uri.isAddressRequest());
         assertNull(uri.getAddress());
         assertEquals(BTC, uri.getType());
-        assertEquals("https://coinomi.com/some-path?abc=xyz", uri.getAddressRequestUri().toString());
-        assertEquals("https://coinomi.com/some-path?abc=xyz&address=" + MAINNET_GOOD_ADDRESS,
+        assertEquals("https://bitcoinfinal.com/some-path?abc=xyz", uri.getAddressRequestUri().toString());
+        assertEquals("https://bitcoinfinal.com/some-path?abc=xyz&address=" + MAINNET_GOOD_ADDRESS,
                 uri.getAddressRequestUriResponse(MAINNET_GOOD_ADDRESS).toString());
 
         // Reply is a generic URI
@@ -553,38 +553,38 @@ public class CoinURITest {
 
         // Testnet
         goodAddressStr = BitAddress.from(BTC_TEST, hash160).toString();
-        uri = new CoinURI("bitcoin:?req-addressrequest=https%3A%2F%2Fcoinomi.com&req-network=test");
+        uri = new CoinURI("bitcoin:?req-addressrequest=https%3A%2F%2Fbitcoinfinal.com&req-network=test");
         assertTrue(uri.isAddressRequest());
         assertNull(uri.getAddress());
         assertEquals(BTC_TEST, uri.getType());
-        assertEquals("https://coinomi.com", uri.getAddressRequestUri().toString());
-        assertEquals("https://coinomi.com?address=" + goodAddressStr,
+        assertEquals("https://bitcoinfinal.com", uri.getAddressRequestUri().toString());
+        assertEquals("https://bitcoinfinal.com?address=" + goodAddressStr,
                 uri.getAddressRequestUriResponse(goodAddressStr).toString());
 
         // NuBits
         goodAddressStr = BitAddress.from(NBT, hash160).toString();
-        uri = new CoinURI("nu:?req-addressrequest=https%3A%2F%2Fcoinomi.com");
+        uri = new CoinURI("nu:?req-addressrequest=https%3A%2F%2Fbitcoinfinal.com");
         assertTrue(uri.isAddressRequest());
         assertNull(uri.getAddress());
         assertEquals(NBT, uri.getType());
-        assertEquals("https://coinomi.com", uri.getAddressRequestUri().toString());
-        assertEquals("https://coinomi.com?address=" + goodAddressStr,
+        assertEquals("https://bitcoinfinal.com", uri.getAddressRequestUri().toString());
+        assertEquals("https://bitcoinfinal.com?address=" + goodAddressStr,
                 uri.getAddressRequestUriResponse(goodAddressStr).toString());
 
         // NuShares
         goodAddressStr = BitAddress.from(NSR, hash160).toString();
-        uri = new CoinURI("nu:?req-addressrequest=https%3A%2F%2Fcoinomi.com&req-network=nsr.main");
+        uri = new CoinURI("nu:?req-addressrequest=https%3A%2F%2Fbitcoinfinal.com&req-network=nsr.main");
         assertTrue(uri.isAddressRequest());
         assertNull(uri.getAddress());
         assertEquals(NSR, uri.getType());
-        assertEquals("https://coinomi.com", uri.getAddressRequestUri().toString());
-        assertEquals("https://coinomi.com?address=" + goodAddressStr,
+        assertEquals("https://bitcoinfinal.com", uri.getAddressRequestUri().toString());
+        assertEquals("https://bitcoinfinal.com?address=" + goodAddressStr,
                 uri.getAddressRequestUriResponse(goodAddressStr).toString());
     }
 
     @Test(expected = CoinURIParseException.class)
     public void testAddressRequestBadFormat() throws Exception {
         new CoinURI(BitcoinTest.get(), BitcoinMain.get().getUriScheme() + ":" + MAINNET_GOOD_ADDRESS
-                + "?req-addressrequest=https%3A%2F%2Fcoinomi.com");
+                + "?req-addressrequest=https%3A%2F%2Fbitcoinfinal.com");
     }
 }

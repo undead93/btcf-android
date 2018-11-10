@@ -1,10 +1,10 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.bitcoinfinal.core.wallet.families.bitcoin;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.LitecoinMain;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;

@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,15 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractTransaction.AbstractOutput;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.ui.widget.SendOutput;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractTransaction.AbstractOutput;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.ui.widget.SendOutput;
 
 import java.util.ArrayList;
 import java.util.List;

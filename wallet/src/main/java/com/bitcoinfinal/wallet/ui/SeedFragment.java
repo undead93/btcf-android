@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 
 import android.content.Context;
@@ -13,10 +13,10 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.Fonts;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.Fonts;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -42,7 +42,7 @@ public class SeedFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_seed, container, false);
 
         TextView seedFontIcon = (TextView) view.findViewById(R.id.seed_icon);
-        Fonts.setTypeface(seedFontIcon, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(seedFontIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
 
         final Button buttonNext = (Button) view.findViewById(R.id.button_next);
         buttonNext.setOnClickListener(new View.OnClickListener() {

@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.widget;
+package com.bitcoinfinal.wallet.ui.widget;
 
 /*
  * Copyright (C) 2013 The Android Open Source Project

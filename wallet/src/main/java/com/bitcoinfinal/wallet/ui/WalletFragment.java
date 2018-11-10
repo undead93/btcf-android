@@ -1,8 +1,8 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.support.v4.app.Fragment;
 
-import com.coinomi.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.WalletAccount;
 
 /**
  * @author John L. Jegutanis

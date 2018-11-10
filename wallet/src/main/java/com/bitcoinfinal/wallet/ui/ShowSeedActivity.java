@@ -1,9 +1,9 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.coinomi.wallet.R;
+import com.bitcoinfinal.wallet.R;
 
 /**
  * @author John L. Jegutanis

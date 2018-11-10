@@ -1,4 +1,4 @@
-package com.coinomi.core.exchange.shapeshift.data;
+package com.bitcoinfinal.core.exchange.shapeshift.data;
 
 import java.io.IOException;
 

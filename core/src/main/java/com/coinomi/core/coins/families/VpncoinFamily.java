@@ -1,7 +1,7 @@
-package com.coinomi.core.coins.families;
+package com.bitcoinfinal.core.coins.families;
 
-import com.coinomi.core.messages.MessageFactory;
-import com.coinomi.core.wallet.families.vpncoin.VpncoinTxMessage;
+import com.bitcoinfinal.core.messages.MessageFactory;
+import com.bitcoinfinal.core.wallet.families.vpncoin.VpncoinTxMessage;
 
 import javax.annotation.Nullable;
 

@@ -1,19 +1,19 @@
-package com.coinomi.core.wallet.families.nxt;
+package com.bitcoinfinal.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.BurstMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.FeePolicy;
-import com.coinomi.core.coins.NxtMain;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.coins.nxt.Appendix;
-import com.coinomi.core.coins.nxt.Attachment;
-import com.coinomi.core.coins.nxt.Convert;
-import com.coinomi.core.coins.nxt.TransactionImpl;
-import com.coinomi.core.util.TypeUtils;
-import com.coinomi.core.wallet.SendRequest;
+import com.bitcoinfinal.core.coins.BurstMain;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.FeePolicy;
+import com.bitcoinfinal.core.coins.NxtMain;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.coins.nxt.Appendix;
+import com.bitcoinfinal.core.coins.nxt.Attachment;
+import com.bitcoinfinal.core.coins.nxt.Convert;
+import com.bitcoinfinal.core.coins.nxt.TransactionImpl;
+import com.bitcoinfinal.core.util.TypeUtils;
+import com.bitcoinfinal.core.wallet.SendRequest;
 
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**

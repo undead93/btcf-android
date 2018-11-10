@@ -1,7 +1,7 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitAddress;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 
@@ -17,7 +17,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

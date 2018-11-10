@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.widget;
+package com.bitcoinfinal.wallet.ui.widget;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -13,12 +13,12 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.ValueType;
-import com.coinomi.core.util.MonetaryFormat;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.MonetarySpannable;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.ValueType;
+import com.bitcoinfinal.core.util.MonetaryFormat;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.MonetarySpannable;
 
 import org.bitcoinj.core.Coin;
 

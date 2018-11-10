@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,17 +9,17 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.Keyboard;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.Keyboard;
 
 import javax.annotation.Nullable;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link com.coinomi.wallet.ui.PasswordConfirmationFragment.Listener} interface
+ * {@link com.bitcoinfinal.wallet.ui.PasswordConfirmationFragment.Listener} interface
  * to handle interaction events.
  * Use the {@link PasswordConfirmationFragment#newInstance} factory method to
  * create an instance of this fragment.
@@ -55,7 +55,7 @@ public class PasswordConfirmationFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_password_confirmation, container, false);
 
-        Fonts.setTypeface(view.findViewById(R.id.key_icon), Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(view.findViewById(R.id.key_icon), Fonts.Font.bitcoinfinal_FONT_ICONS);
 
         TextView messageView = (TextView) view.findViewById(R.id.message);
         if (message != null) {

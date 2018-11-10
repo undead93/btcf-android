@@ -1,4 +1,4 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
 
 /*
@@ -18,10 +18,10 @@ package com.coinomi.core.util;
  * limitations under the License.
  */
 
-import com.coinomi.core.coins.FiatType;
-import com.coinomi.core.coins.FiatValue;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.ValueType;
+import com.bitcoinfinal.core.coins.FiatType;
+import com.bitcoinfinal.core.coins.FiatValue;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.ValueType;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkState;
@@ -433,7 +433,7 @@ public final class MonetaryFormat implements Serializable {
     }
 
     /**
-     * Parse a human readable fiat value to a {@link com.coinomi.core.coins.Value} instance.
+     * Parse a human readable fiat value to a {@link com.bitcoinfinal.core.coins.Value} instance.
      *
      * @throws NumberFormatException
      *             if the string cannot be parsed for some reason

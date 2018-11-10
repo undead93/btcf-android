@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.widget;
+package com.bitcoinfinal.wallet.ui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,13 +8,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.WalletUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.WalletUtils;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

@@ -1,10 +1,10 @@
-package com.coinomi.wallet.tasks;
+package com.bitcoinfinal.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
 
 import org.spongycastle.crypto.params.KeyParameter;
 

@@ -1,4 +1,4 @@
-package com.coinomi.stratumj.messages;
+package com.bitcoinfinal.stratumj.messages;
 
 /**
  * @author John L. Jegutanis

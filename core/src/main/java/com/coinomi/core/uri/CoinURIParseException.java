@@ -16,7 +16,7 @@
  *
  */
 
-package com.coinomi.core.uri;
+package com.bitcoinfinal.core.uri;
 
 /**
  * <p>Exception to provide the following to {@link CoinURI}:</p>

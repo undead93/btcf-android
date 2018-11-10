@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,20 +18,20 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.network.ConnectivityHelper;
-import com.coinomi.core.network.ServerClients;
-import com.coinomi.core.wallet.BitWalletSingleKey;
-import com.coinomi.core.wallet.SendRequest;
-import com.coinomi.core.wallet.SerializedKey;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.core.wallet.families.bitcoin.BitTransaction;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.util.Keyboard;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.network.ConnectivityHelper;
+import com.bitcoinfinal.core.network.ServerClients;
+import com.bitcoinfinal.core.wallet.BitWalletSingleKey;
+import com.bitcoinfinal.core.wallet.SendRequest;
+import com.bitcoinfinal.core.wallet.SerializedKey;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitTransaction;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.util.Keyboard;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.bitcoinj.core.TransactionInput;
 import org.bitcoinj.core.TransactionOutPoint;
@@ -47,9 +47,9 @@ import butterknife.OnFocusChange;
 import butterknife.OnTextChanged;
 
 import static butterknife.OnTextChanged.Callback.AFTER_TEXT_CHANGED;
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.wallet.util.UiUtils.setGone;
-import static com.coinomi.wallet.util.UiUtils.setVisible;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.wallet.util.UiUtils.setGone;
+import static com.bitcoinfinal.wallet.util.UiUtils.setVisible;
 
 
 /**

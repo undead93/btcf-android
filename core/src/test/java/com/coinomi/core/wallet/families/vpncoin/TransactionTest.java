@@ -1,7 +1,7 @@
-package com.coinomi.core.wallet.families.vpncoin;
+package com.bitcoinfinal.core.wallet.families.vpncoin;
 
-import com.coinomi.core.coins.VpncoinMain;
-import com.coinomi.core.messages.MessageFactory;
+import com.bitcoinfinal.core.coins.VpncoinMain;
+import com.bitcoinfinal.core.messages.MessageFactory;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Transaction;

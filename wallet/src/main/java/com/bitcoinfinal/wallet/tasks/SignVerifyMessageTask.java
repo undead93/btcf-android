@@ -1,9 +1,9 @@
-package com.coinomi.wallet.tasks;
+package com.bitcoinfinal.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.coinomi.core.wallet.SignedMessage;
-import com.coinomi.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.SignedMessage;
+import com.bitcoinfinal.core.wallet.WalletAccount;
 
 import org.acra.ACRA;
 import org.bitcoinj.crypto.KeyCrypterException;

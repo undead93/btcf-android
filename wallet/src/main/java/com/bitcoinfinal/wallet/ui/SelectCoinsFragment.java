@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 
 import android.content.Context;
@@ -16,14 +16,14 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeRatesProvider;
-import com.coinomi.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.widget.HeaderWithFontIcon;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.widget.HeaderWithFontIcon;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
 
@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 
-import static com.coinomi.wallet.ExchangeRatesProvider.getRates;
+import static com.bitcoinfinal.wallet.ExchangeRatesProvider.getRates;
 
 /**
  * Fragment that restores a wallet

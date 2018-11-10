@@ -1,6 +1,6 @@
-package com.coinomi.core.messages;
+package com.bitcoinfinal.core.messages;
 
-import com.coinomi.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
 
 import javax.annotation.Nullable;
 

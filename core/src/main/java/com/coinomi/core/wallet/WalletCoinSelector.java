@@ -1,8 +1,8 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.wallet.families.bitcoin.CoinSelection;
-import com.coinomi.core.wallet.families.bitcoin.CoinSelector;
-import com.coinomi.core.wallet.families.bitcoin.OutPointOutput;
+import com.bitcoinfinal.core.wallet.families.bitcoin.CoinSelection;
+import com.bitcoinfinal.core.wallet.families.bitcoin.CoinSelector;
+import com.bitcoinfinal.core.wallet.families.bitcoin.OutPointOutput;
 import com.google.common.annotations.VisibleForTesting;
 
 import org.bitcoinj.core.Coin;

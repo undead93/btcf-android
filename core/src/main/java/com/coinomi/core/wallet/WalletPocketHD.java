@@ -16,16 +16,16 @@
  * limitations under the License.
  */
 
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.exceptions.Bip44KeyLookAheadExceededException;
-import com.coinomi.core.protos.Protos;
-import com.coinomi.core.util.KeyUtils;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
-import com.coinomi.core.wallet.families.bitcoin.BitSendRequest;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.exceptions.Bip44KeyLookAheadExceededException;
+import com.bitcoinfinal.core.protos.Protos;
+import com.bitcoinfinal.core.util.KeyUtils;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitAddress;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitSendRequest;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 
@@ -52,11 +52,11 @@ import java.util.Set;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkArgument;
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
-import static com.coinomi.core.util.BitAddressUtils.getHash160;
-import static com.coinomi.core.util.BitAddressUtils.isP2SHAddress;
+import static com.bitcoinfinal.core.Preconditions.checkArgument;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.util.BitAddressUtils.getHash160;
+import static com.bitcoinfinal.core.util.BitAddressUtils.isP2SHAddress;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.CHANGE;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.RECEIVE_FUNDS;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.REFUND;

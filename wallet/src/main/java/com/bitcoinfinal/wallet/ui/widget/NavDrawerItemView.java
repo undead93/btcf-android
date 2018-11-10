@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.widget;
+package com.bitcoinfinal.wallet.ui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,10 +8,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.WalletUtils;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.WalletUtils;
 
 /**
  * @author John L. Jegutanis

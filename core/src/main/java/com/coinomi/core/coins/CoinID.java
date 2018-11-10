@@ -1,7 +1,7 @@
-package com.coinomi.core.coins;
+package com.bitcoinfinal.core.coins;
 
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.util.GenericUtils;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.util.GenericUtils;
 import com.google.common.collect.ImmutableList;
 
 import org.bitcoinj.core.NetworkParameters;

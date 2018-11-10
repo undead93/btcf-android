@@ -1,13 +1,13 @@
-package com.coinomi.core.coins.nxt;
+package com.bitcoinfinal.core.coins.nxt;
 
 /**
  * @author John L. Jegutanis
  */
 
-import com.coinomi.core.coins.NxtMain;
-import com.coinomi.core.coins.nxt.Appendix.EncryptedMessage;
-import com.coinomi.core.wallet.families.nxt.NxtAddress;
-import com.coinomi.core.wallet.families.nxt.NxtFamilyKey;
+import com.bitcoinfinal.core.coins.NxtMain;
+import com.bitcoinfinal.core.coins.nxt.Appendix.EncryptedMessage;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtAddress;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtFamilyKey;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;

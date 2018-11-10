@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -27,13 +27,13 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.wallet.AddressBookProvider;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.WalletUtils;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.wallet.AddressBookProvider;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.WalletUtils;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -149,7 +149,7 @@ public class AddressesListAdapter extends BaseAdapter {
 
         TextView addressUsageLabel = (TextView) row.findViewById(R.id.address_row_usage);
         TextView addressUsageFontIcon = (TextView) row.findViewById(R.id.address_row_usage_font_icon);
-        Fonts.setTypeface(addressUsageFontIcon, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(addressUsageFontIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
 
         if (usedAddresses.contains(address)) {
             addressUsageLabel.setText(R.string.previous_addresses_used);

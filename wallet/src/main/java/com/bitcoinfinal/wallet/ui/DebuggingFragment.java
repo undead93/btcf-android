@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -8,9 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.crypto.DeterministicKey;
@@ -30,7 +30,7 @@ import javax.annotation.Nullable;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

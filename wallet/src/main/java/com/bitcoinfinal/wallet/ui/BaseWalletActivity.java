@@ -1,15 +1,15 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.WalletApplication;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.WalletApplication;
 
 import java.util.List;
 

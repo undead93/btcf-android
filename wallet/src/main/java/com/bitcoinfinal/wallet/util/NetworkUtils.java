@@ -1,8 +1,8 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 import android.content.Context;
 
-import com.coinomi.wallet.Constants;
+import com.bitcoinfinal.wallet.Constants;
 import com.squareup.okhttp.Cache;
 import com.squareup.okhttp.ConnectionSpec;
 import com.squareup.okhttp.OkHttpClient;

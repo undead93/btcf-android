@@ -1,18 +1,18 @@
-package com.coinomi.core.network;
+package com.bitcoinfinal.core.network;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.network.interfaces.ConnectionEventListener;
-import com.coinomi.core.network.interfaces.TransactionEventListener;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
-import com.coinomi.core.wallet.families.bitcoin.BitBlockchainConnection;
-import com.coinomi.core.wallet.families.bitcoin.BitTransaction;
-import com.coinomi.core.wallet.families.bitcoin.BitTransactionEventListener;
-import com.coinomi.stratumj.ServerAddress;
-import com.coinomi.stratumj.StratumClient;
-import com.coinomi.stratumj.messages.CallMessage;
-import com.coinomi.stratumj.messages.ResultMessage;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.network.interfaces.ConnectionEventListener;
+import com.bitcoinfinal.core.network.interfaces.TransactionEventListener;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitAddress;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitBlockchainConnection;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitTransaction;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitTransactionEventListener;
+import com.bitcoinfinal.stratumj.ServerAddress;
+import com.bitcoinfinal.stratumj.StratumClient;
+import com.bitcoinfinal.stratumj.messages.CallMessage;
+import com.bitcoinfinal.stratumj.messages.ResultMessage;
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.Files;
 import com.google.common.util.concurrent.FutureCallback;
@@ -45,8 +45,8 @@ import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 import static com.google.common.util.concurrent.Service.State.NEW;
 
 /**

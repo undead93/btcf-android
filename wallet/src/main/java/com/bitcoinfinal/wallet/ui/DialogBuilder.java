@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 /*
  * Copyright 2014 the original author or authors.
@@ -26,7 +26,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.coinomi.wallet.R;
+import com.bitcoinfinal.wallet.R;
 
 import javax.annotation.Nullable;
 

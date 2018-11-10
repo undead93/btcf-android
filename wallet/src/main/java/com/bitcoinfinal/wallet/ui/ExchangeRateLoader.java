@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 /*
  * Copyright 2012-2014 the original author or authors.
@@ -17,8 +17,8 @@ package com.coinomi.wallet.ui;
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

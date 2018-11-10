@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
-import com.coinomi.core.wallet.families.bitcoin.BitSendRequest;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitAddress;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitSendRequest;
 
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.InsufficientMoneyException;
@@ -36,10 +36,10 @@ import java.util.Arrays;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
-import static com.coinomi.core.util.BitAddressUtils.getHash160;
-import static com.coinomi.core.util.BitAddressUtils.isP2SHAddress;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.util.BitAddressUtils.getHash160;
+import static com.bitcoinfinal.core.util.BitAddressUtils.isP2SHAddress;
 
 /**
  * @author John L. Jegutanis

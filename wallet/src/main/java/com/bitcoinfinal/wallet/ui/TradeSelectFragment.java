@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -21,27 +21,27 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.PeercoinMain;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exchange.shapeshift.ShapeShift;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.coinomi.core.util.ExchangeRate;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.tasks.AddCoinTask;
-import com.coinomi.wallet.tasks.ExchangeCheckSupportedCoinsTask;
-import com.coinomi.wallet.tasks.MarketInfoPollTask;
-import com.coinomi.wallet.ui.adaptors.AvailableAccountsAdaptor;
-import com.coinomi.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
-import com.coinomi.wallet.ui.widget.AmountEditView;
-import com.coinomi.wallet.util.Keyboard;
-import com.coinomi.wallet.util.ThrottlingWalletChangeListener;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.PeercoinMain;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exchange.shapeshift.ShapeShift;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.bitcoinfinal.core.util.ExchangeRate;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.tasks.AddCoinTask;
+import com.bitcoinfinal.wallet.tasks.ExchangeCheckSupportedCoinsTask;
+import com.bitcoinfinal.wallet.tasks.MarketInfoPollTask;
+import com.bitcoinfinal.wallet.ui.adaptors.AvailableAccountsAdaptor;
+import com.bitcoinfinal.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
+import com.bitcoinfinal.wallet.ui.widget.AmountEditView;
+import com.bitcoinfinal.wallet.util.Keyboard;
+import com.bitcoinfinal.wallet.util.ThrottlingWalletChangeListener;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
@@ -57,7 +57,7 @@ import java.util.Timer;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.coins.Value.canCompare;
+import static com.bitcoinfinal.core.coins.Value.canCompare;
 
 /**
  * @author John L. Jegutanis

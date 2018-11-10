@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.dialogs;
+package com.bitcoinfinal.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.ui.DialogBuilder;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.ui.DialogBuilder;
 
 import butterknife.ButterKnife;
 

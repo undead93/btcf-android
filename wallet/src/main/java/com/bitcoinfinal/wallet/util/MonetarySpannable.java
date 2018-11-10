@@ -1,4 +1,4 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 /*
  * Copyright 2014 the original author or authors.
@@ -24,8 +24,8 @@ import android.text.SpannableString;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 
-import com.coinomi.core.util.MonetaryFormat;
-import com.coinomi.wallet.Constants;
+import com.bitcoinfinal.core.util.MonetaryFormat;
+import com.bitcoinfinal.wallet.Constants;
 
 import org.bitcoinj.core.Monetary;
 

@@ -1,10 +1,10 @@
-package com.coinomi.core.exchange.shapeshift.data;
+package com.bitcoinfinal.core.exchange.shapeshift.data;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exchange.shapeshift.ShapeShift;
-import com.coinomi.core.util.ExchangeRate;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exchange.shapeshift.ShapeShift;
+import com.bitcoinfinal.core.util.ExchangeRate;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -12,7 +12,7 @@ import org.json.JSONObject;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

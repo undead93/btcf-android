@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.widget;
+package com.bitcoinfinal.wallet.ui.widget;
 
 import android.content.Context;
 import android.graphics.Paint;

@@ -1,13 +1,13 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.CoreUtils;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.BitFamily;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.exceptions.UnsupportedCoinTypeException;
-import com.coinomi.core.protos.Protos;
-import com.coinomi.core.wallet.families.nxt.NxtFamilyWallet;
+import com.bitcoinfinal.core.CoreUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.BitFamily;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.exceptions.UnsupportedCoinTypeException;
+import com.bitcoinfinal.core.protos.Protos;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtFamilyWallet;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Splitter;
 import com.google.common.collect.ImmutableList;
@@ -44,7 +44,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import javax.annotation.Nullable;
 import javax.annotation.concurrent.GuardedBy;
 
-import static com.coinomi.core.CoreUtils.bytesToMnemonic;
+import static com.bitcoinfinal.core.CoreUtils.bytesToMnemonic;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkState;
 
@@ -572,7 +572,7 @@ final public class Wallet {
     /**
      * <p>
      * Disables auto-saving, after it had been enabled with
-     * {@link Wallet#autosaveToFile(java.io.File, long, java.util.concurrent.TimeUnit, com.coinomi.core.wallet.WalletFiles.Listener)}
+     * {@link Wallet#autosaveToFile(java.io.File, long, java.util.concurrent.TimeUnit, com.bitcoinfinal.core.wallet.WalletFiles.Listener)}
      * before. This method blocks until finished.
      * </p>
      */

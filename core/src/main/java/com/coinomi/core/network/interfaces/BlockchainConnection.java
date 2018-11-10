@@ -1,7 +1,7 @@
-package com.coinomi.core.network.interfaces;
+package com.bitcoinfinal.core.network.interfaces;
 
-import com.coinomi.core.network.AddressStatus;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.network.AddressStatus;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Sha256Hash;
 

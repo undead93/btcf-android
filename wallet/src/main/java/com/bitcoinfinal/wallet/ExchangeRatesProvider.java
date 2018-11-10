@@ -1,4 +1,4 @@
-package com.coinomi.wallet;
+package com.bitcoinfinal.wallet;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -29,12 +29,12 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.FiatValue;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.util.ExchangeRateBase;
-import com.coinomi.wallet.util.NetworkUtils;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.FiatValue;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.util.ExchangeRateBase;
+import com.bitcoinfinal.wallet.util.NetworkUtils;
 import com.google.common.collect.ImmutableMap;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -99,10 +99,10 @@ public class ExchangeRatesProvider extends ContentProvider {
     private long cryptoToLocalLastUpdated = 0;
     private String lastCryptoCurrency = null;
 
-    private static final String BASE_URL = "https://ticker.coinomi.net/simple";
+    private static final String BASE_URL = "https://ticker.bitcoinfinal.net/simple";
     private static final String TO_LOCAL_URL = BASE_URL + "/to-local/%s";
     private static final String TO_CRYPTO_URL = BASE_URL + "/to-crypto/%s";
-    private static final String COINOMI_SOURCE = "coinomi.com";
+    private static final String bitcoinfinal_SOURCE = "bitcoinfinal.com";
 
     private static final Logger log = LoggerFactory.getLogger(ExchangeRatesProvider.class);
 
@@ -365,7 +365,7 @@ public class ExchangeRatesProvider extends ContentProvider {
                             final Value rateLocal = FiatValue.parse(localSymbol, rateStr);
 
                             ExchangeRateBase rate = new ExchangeRateBase(rateCoin, rateLocal);
-                            rates.put(toSymbol, new ExchangeRate(rate, toSymbol, COINOMI_SOURCE));
+                            rates.put(toSymbol, new ExchangeRate(rate, toSymbol, bitcoinfinal_SOURCE));
                         } catch (final Exception x) {
                             log.debug("ignoring {}/{}: {}", toSymbol, fromSymbol, x.getMessage());
                         }

@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.widget;
+package com.bitcoinfinal.wallet.ui.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,16 +7,16 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.util.ExchangeRate;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractTransaction.AbstractOutput;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.wallet.R;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.util.ExchangeRate;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractTransaction.AbstractOutput;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.wallet.R;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

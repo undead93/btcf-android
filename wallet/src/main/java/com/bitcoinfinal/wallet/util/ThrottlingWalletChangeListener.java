@@ -1,4 +1,4 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 /*
  * Copyright 2013-2014 the original author or authors.
@@ -23,11 +23,11 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import android.os.Handler;
 
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.core.wallet.WalletAccountEventListener;
-import com.coinomi.core.wallet.WalletConnectivityStatus;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.WalletAccountEventListener;
+import com.bitcoinfinal.core.wallet.WalletConnectivityStatus;
 
 /**
  * @author Andreas Schildbach

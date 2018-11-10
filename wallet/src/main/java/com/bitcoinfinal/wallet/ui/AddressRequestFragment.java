@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -21,29 +21,29 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.FiatType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.BitFamily;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.exceptions.UnsupportedCoinTypeException;
-import com.coinomi.core.uri.CoinURI;
-import com.coinomi.core.util.ExchangeRate;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.AddressBookProvider;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeRatesProvider;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.dialogs.CreateNewAddressDialog;
-import com.coinomi.wallet.ui.widget.AmountEditView;
-import com.coinomi.wallet.util.QrUtils;
-import com.coinomi.wallet.util.ThrottlingWalletChangeListener;
-import com.coinomi.wallet.util.UiUtils;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.FiatType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.BitFamily;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.exceptions.UnsupportedCoinTypeException;
+import com.bitcoinfinal.core.uri.CoinURI;
+import com.bitcoinfinal.core.util.ExchangeRate;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.AddressBookProvider;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.dialogs.CreateNewAddressDialog;
+import com.bitcoinfinal.wallet.ui.widget.AmountEditView;
+import com.bitcoinfinal.wallet.util.QrUtils;
+import com.bitcoinfinal.wallet.util.ThrottlingWalletChangeListener;
+import com.bitcoinfinal.wallet.util.UiUtils;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -55,8 +55,8 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.wallet.ExchangeRatesProvider.getRate;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.wallet.ExchangeRatesProvider.getRate;
 
 /**
  *
@@ -152,8 +152,8 @@ public class AddressRequestFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.coinomi.wallet.ui.AccountFragment
-        // or in com.coinomi.wallet.ui.PreviousAddressesActivity
+        // The onCreateOptionsMenu is handled in com.bitcoinfinal.wallet.ui.AccountFragment
+        // or in com.bitcoinfinal.wallet.ui.PreviousAddressesActivity
         setHasOptionsMenu(true);
 
         WalletApplication walletApplication = (WalletApplication) getActivity().getApplication();

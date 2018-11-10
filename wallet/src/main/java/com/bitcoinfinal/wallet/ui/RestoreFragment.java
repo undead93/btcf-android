@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -21,11 +21,11 @@ import android.widget.ImageButton;
 import android.widget.MultiAutoCompleteTextView;
 import android.widget.TextView;
 
-import com.coinomi.core.CoreUtils;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.Keyboard;
+import com.bitcoinfinal.core.CoreUtils;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.Keyboard;
 
 import org.bitcoinj.crypto.MnemonicCode;
 import org.bitcoinj.crypto.MnemonicException;
@@ -84,7 +84,7 @@ public class RestoreFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_restore, container, false);
 
-        Fonts.setTypeface(view.findViewById(R.id.coins_icon), Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(view.findViewById(R.id.coins_icon), Fonts.Font.bitcoinfinal_FONT_ICONS);
 
         ImageButton scanQrButton = (ImageButton) view.findViewById(R.id.scan_qr_code);
         scanQrButton.setOnClickListener(new View.OnClickListener() {

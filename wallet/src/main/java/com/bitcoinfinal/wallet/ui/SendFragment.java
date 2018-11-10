@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -31,36 +31,36 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.FiatType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.ValueType;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.exceptions.NoSuchPocketException;
-import com.coinomi.core.exchange.shapeshift.ShapeShift;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.coinomi.core.messages.MessageFactory;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.uri.CoinURI;
-import com.coinomi.core.uri.CoinURIParseException;
-import com.coinomi.core.util.ExchangeRate;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.AddressBookProvider;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeRatesProvider;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.tasks.MarketInfoPollTask;
-import com.coinomi.wallet.ui.widget.AddressView;
-import com.coinomi.wallet.ui.widget.AmountEditView;
-import com.coinomi.wallet.util.ThrottlingWalletChangeListener;
-import com.coinomi.wallet.util.UiUtils;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.FiatType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.ValueType;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.exceptions.NoSuchPocketException;
+import com.bitcoinfinal.core.exchange.shapeshift.ShapeShift;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.bitcoinfinal.core.messages.MessageFactory;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.uri.CoinURI;
+import com.bitcoinfinal.core.uri.CoinURIParseException;
+import com.bitcoinfinal.core.util.ExchangeRate;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.AddressBookProvider;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.tasks.MarketInfoPollTask;
+import com.bitcoinfinal.wallet.ui.widget.AddressView;
+import com.bitcoinfinal.wallet.ui.widget.AmountEditView;
+import com.bitcoinfinal.wallet.util.ThrottlingWalletChangeListener;
+import com.bitcoinfinal.wallet.util.UiUtils;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 import com.google.common.base.Charsets;
 
 import org.acra.ACRA;
@@ -87,11 +87,11 @@ import butterknife.OnClick;
 import static android.view.View.GONE;
 import static android.view.View.OnClickListener;
 import static android.view.View.VISIBLE;
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.coins.Value.canCompare;
-import static com.coinomi.wallet.ExchangeRatesProvider.getRates;
-import static com.coinomi.wallet.util.UiUtils.setGone;
-import static com.coinomi.wallet.util.UiUtils.setVisible;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.coins.Value.canCompare;
+import static com.bitcoinfinal.wallet.ExchangeRatesProvider.getRates;
+import static com.bitcoinfinal.wallet.util.UiUtils.setGone;
+import static com.bitcoinfinal.wallet.util.UiUtils.setVisible;
 
 /**
  * Fragment that prepares a transaction
@@ -205,7 +205,7 @@ public class SendFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.coinomi.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.bitcoinfinal.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         Bundle args = getArguments();
@@ -1159,7 +1159,7 @@ public class SendFragment extends WalletFragment {
         @Override
         public void onLoadFinished(final Loader<Cursor> loader, final Cursor data) {
             if (data != null && data.getCount() > 0) {
-                HashMap<String, com.coinomi.core.util.ExchangeRate> rates = new HashMap<>(data.getCount());
+                HashMap<String, com.bitcoinfinal.core.util.ExchangeRate> rates = new HashMap<>(data.getCount());
                 data.moveToFirst();
                 do {
                     ExchangeRatesProvider.ExchangeRate rate = ExchangeRatesProvider.getExchangeRate(data);

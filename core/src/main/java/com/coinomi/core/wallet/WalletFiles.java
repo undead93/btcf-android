@@ -1,4 +1,4 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
 /**
  * Copyright 2013 Google Inc.

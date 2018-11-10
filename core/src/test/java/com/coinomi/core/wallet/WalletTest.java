@@ -1,11 +1,11 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DogecoinMain;
-import com.coinomi.core.coins.DogecoinTest;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.protos.Protos;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.DogecoinMain;
+import com.bitcoinfinal.core.coins.DogecoinTest;
+import com.bitcoinfinal.core.coins.LitecoinMain;
+import com.bitcoinfinal.core.protos.Protos;
 import org.bitcoinj.crypto.KeyCrypter;
 import org.bitcoinj.crypto.KeyCrypterScrypt;
 import org.bitcoinj.crypto.MnemonicException;

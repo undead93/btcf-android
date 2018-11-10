@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,21 +18,21 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.ExchangeRatesProvider;
-import com.coinomi.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.adaptors.AccountListAdapter;
-import com.coinomi.wallet.ui.widget.Amount;
-import com.coinomi.wallet.ui.widget.SwipeRefreshLayout;
-import com.coinomi.wallet.util.ThrottlingWalletChangeListener;
-import com.coinomi.wallet.util.UiUtils;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.adaptors.AccountListAdapter;
+import com.bitcoinfinal.wallet.ui.widget.Amount;
+import com.bitcoinfinal.wallet.ui.widget.SwipeRefreshLayout;
+import com.bitcoinfinal.wallet.util.ThrottlingWalletChangeListener;
+import com.bitcoinfinal.wallet.util.UiUtils;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 import com.google.common.collect.ImmutableMap;
 
 import org.bitcoinj.utils.Threading;

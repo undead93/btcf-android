@@ -1,4 +1,4 @@
-package com.coinomi.core.exchange.shapeshift.data;
+package com.bitcoinfinal.core.exchange.shapeshift.data;
 
 /**
  * Copyright 2014 Andreas Schildbach
@@ -18,10 +18,10 @@ package com.coinomi.core.exchange.shapeshift.data;
  */
 
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.ValueType;
-import com.coinomi.core.util.ExchangeRateBase;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.ValueType;
+import com.bitcoinfinal.core.util.ExchangeRateBase;
 
 import org.bitcoinj.core.Coin;
 
@@ -31,7 +31,7 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkState;
 
 /**
- * An exchange rate is expressed as a ratio of a pair of {@link com.coinomi.core.coins.Value} amounts.
+ * An exchange rate is expressed as a ratio of a pair of {@link com.bitcoinfinal.core.coins.Value} amounts.
  */
 public class ShapeShiftExchangeRate extends ExchangeRateBase {
     public final Value minerFee;

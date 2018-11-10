@@ -1,6 +1,6 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.CoinType;
 
 import java.io.Serializable;
 

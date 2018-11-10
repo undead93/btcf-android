@@ -1,10 +1,10 @@
-package com.coinomi.core.wallet.families.nxt;
+package com.bitcoinfinal.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.nxt.Convert;
-import com.coinomi.core.coins.nxt.Transaction;
-import com.coinomi.core.messages.MessageFactory;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.coins.nxt.Convert;
+import com.bitcoinfinal.core.coins.nxt.Transaction;
+import com.bitcoinfinal.core.messages.MessageFactory;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
 
 import javax.annotation.Nullable;
 

@@ -1,4 +1,4 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.bitcoinfinal.core.wallet.families.bitcoin;
 
 import com.google.common.collect.ImmutableList;
 
@@ -14,9 +14,9 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkArgument;
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkArgument;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

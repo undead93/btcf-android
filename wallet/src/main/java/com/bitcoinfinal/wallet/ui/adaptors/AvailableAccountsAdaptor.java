@@ -1,15 +1,15 @@
-package com.coinomi.wallet.ui.adaptors;
+package com.bitcoinfinal.wallet.ui.adaptors;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.core.wallet.WalletPocketHD;
-import com.coinomi.wallet.ui.widget.NavDrawerItemView;
-import com.coinomi.wallet.util.WalletUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.WalletPocketHD;
+import com.bitcoinfinal.wallet.ui.widget.NavDrawerItemView;
+import com.bitcoinfinal.wallet.util.WalletUtils;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 

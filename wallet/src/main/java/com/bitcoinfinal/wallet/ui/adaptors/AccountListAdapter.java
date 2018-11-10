@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.adaptors;
+package com.bitcoinfinal.wallet.ui.adaptors;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
@@ -9,14 +9,14 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeRatesProvider;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.ui.widget.Amount;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.ui.widget.Amount;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,8 +1,8 @@
-package com.coinomi.core.wallet.families.nxt;
+package com.bitcoinfinal.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.nxt.Crypto;
-import com.coinomi.core.protos.Protos;
-import com.coinomi.core.util.KeyUtils;
+import com.bitcoinfinal.core.coins.nxt.Crypto;
+import com.bitcoinfinal.core.protos.Protos;
+import com.bitcoinfinal.core.util.KeyUtils;
 import com.google.protobuf.ByteString;
 
 import org.bitcoinj.core.BloomFilter;

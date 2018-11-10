@@ -1,11 +1,11 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.widget.ImageView;
 
-import com.coinomi.wallet.R;
+import com.bitcoinfinal.wallet.R;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.WriterException;

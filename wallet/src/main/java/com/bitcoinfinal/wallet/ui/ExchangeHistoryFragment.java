@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,16 +17,16 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeHistoryProvider;
-import com.coinomi.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.widget.AddressView;
-import com.coinomi.wallet.ui.widget.Amount;
-import com.coinomi.wallet.util.Fonts;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeHistoryProvider;
+import com.bitcoinfinal.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.widget.AddressView;
+import com.bitcoinfinal.wallet.ui.widget.Amount;
+import com.bitcoinfinal.wallet.util.Fonts;
 
 import org.bitcoinj.core.Coin;
 
@@ -40,7 +40,7 @@ public final class ExchangeHistoryFragment extends ListFragment {
     private Context activity;
     private WalletApplication application;
     private Configuration config;
-    private com.coinomi.core.wallet.Wallet wallet;
+    private com.bitcoinfinal.core.wallet.Wallet wallet;
     private Uri contentUri;
     private LoaderManager loaderManager;
 
@@ -132,9 +132,9 @@ public final class ExchangeHistoryFragment extends ListFragment {
             final ExchangeEntry entry = ExchangeHistoryProvider.getExchangeEntry(cursor);
             final View okIcon = view.findViewById(R.id.exchange_status_ok_icon);
             final View errorIcon = view.findViewById(R.id.exchange_status_error_icon);
-            Fonts.setTypeface(okIcon, Fonts.Font.COINOMI_FONT_ICONS);
-            Fonts.setTypeface(errorIcon, Fonts.Font.COINOMI_FONT_ICONS);
-            Fonts.setTypeface(view.findViewById(R.id.exchange_arrow), Fonts.Font.COINOMI_FONT_ICONS);
+            Fonts.setTypeface(okIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
+            Fonts.setTypeface(errorIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
+            Fonts.setTypeface(view.findViewById(R.id.exchange_arrow), Fonts.Font.bitcoinfinal_FONT_ICONS);
             final View progress = view.findViewById(R.id.exchange_status_progress);
             final TextView statusText = (TextView) view.findViewById(R.id.exchange_status_text);
             final View values = view.findViewById(R.id.exchange_values);

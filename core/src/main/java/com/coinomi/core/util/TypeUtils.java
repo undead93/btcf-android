@@ -1,9 +1,9 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.ValueType;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.ValueType;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.WalletAccount;
 
 /**
  * @author John L. Jegutanis

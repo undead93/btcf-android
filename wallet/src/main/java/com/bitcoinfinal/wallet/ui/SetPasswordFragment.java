@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,11 +17,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.Keyboard;
-import com.coinomi.wallet.util.PasswordQualityChecker;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.Keyboard;
+import com.bitcoinfinal.wallet.util.PasswordQualityChecker;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -64,7 +64,7 @@ public class SetPasswordFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_set_password, container, false);
 
-        Fonts.setTypeface(view.findViewById(R.id.key_icon), Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(view.findViewById(R.id.key_icon), Fonts.Font.bitcoinfinal_FONT_ICONS);
 
         errorPassword = (TextView) view.findViewById(R.id.password_error);
         errorPasswordsMismatch = (TextView) view.findViewById(R.id.passwords_mismatch);

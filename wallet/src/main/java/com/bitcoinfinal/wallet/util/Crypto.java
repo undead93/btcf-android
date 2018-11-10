@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 
 import java.io.File;

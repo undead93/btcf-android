@@ -1,8 +1,8 @@
-package com.coinomi.core.network.interfaces;
+package com.bitcoinfinal.core.network.interfaces;
 
-import com.coinomi.core.network.AddressStatus;
-import com.coinomi.core.network.BlockHeader;
-import com.coinomi.core.network.ServerClient.HistoryTx;
+import com.bitcoinfinal.core.network.AddressStatus;
+import com.bitcoinfinal.core.network.BlockHeader;
+import com.bitcoinfinal.core.network.ServerClient.HistoryTx;
 
 import java.util.List;
 

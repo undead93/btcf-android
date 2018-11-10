@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 /*
  * Copyright 2013-2014 the original author or authors.
@@ -19,10 +19,10 @@ package com.coinomi.wallet.ui;
 
 import android.view.View;
 
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.util.ExchangeRate;
-import com.coinomi.wallet.ui.widget.AmountEditView;
-import com.coinomi.wallet.ui.widget.AmountEditView.Listener;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.util.ExchangeRate;
+import com.bitcoinfinal.wallet.ui.widget.AmountEditView;
+import com.bitcoinfinal.wallet.ui.widget.AmountEditView.Listener;
 
 import org.bitcoinj.core.Coin;
 

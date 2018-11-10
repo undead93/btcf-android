@@ -1,13 +1,13 @@
-package com.coinomi.core.exchange.shapeshift.data;
+package com.bitcoinfinal.core.exchange.shapeshift.data;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.util.ExchangeRate;
-import com.coinomi.core.util.ExchangeRateBase;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.util.ExchangeRate;
+import com.bitcoinfinal.core.util.ExchangeRateBase;
 
 import org.json.JSONObject;
 
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

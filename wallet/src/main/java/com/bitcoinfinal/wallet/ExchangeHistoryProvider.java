@@ -1,4 +1,4 @@
-package com.coinomi.wallet;
+package com.bitcoinfinal.wallet;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -9,19 +9,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftTxStatus;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftTxStatus;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 
 import java.io.Serializable;
 import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

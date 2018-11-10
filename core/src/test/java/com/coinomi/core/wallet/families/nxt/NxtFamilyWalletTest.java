@@ -1,19 +1,19 @@
-package com.coinomi.core.wallet.families.nxt;
+package com.bitcoinfinal.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.NxtMain;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.coins.nxt.Account;
-import com.coinomi.core.coins.nxt.Attachment;
-import com.coinomi.core.coins.nxt.Convert;
-import com.coinomi.core.coins.nxt.NxtException;
-import com.coinomi.core.coins.nxt.Transaction;
-import com.coinomi.core.coins.nxt.TransactionImpl;
-import com.coinomi.core.protos.Protos;
-import com.coinomi.core.wallet.SendRequest;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.NxtMain;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.coins.nxt.Account;
+import com.bitcoinfinal.core.coins.nxt.Attachment;
+import com.bitcoinfinal.core.coins.nxt.Convert;
+import com.bitcoinfinal.core.coins.nxt.NxtException;
+import com.bitcoinfinal.core.coins.nxt.Transaction;
+import com.bitcoinfinal.core.coins.nxt.TransactionImpl;
+import com.bitcoinfinal.core.protos.Protos;
+import com.bitcoinfinal.core.wallet.SendRequest;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;

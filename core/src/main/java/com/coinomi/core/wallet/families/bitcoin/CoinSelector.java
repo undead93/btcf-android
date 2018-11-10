@@ -1,4 +1,4 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.bitcoinfinal.core.wallet.families.bitcoin;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.wallet.DefaultCoinSelector;

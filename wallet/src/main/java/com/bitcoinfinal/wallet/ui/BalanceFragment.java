@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -18,24 +18,24 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.core.wallet.WalletConnectivityStatus;
-import com.coinomi.wallet.AddressBookProvider;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeRatesProvider;
-import com.coinomi.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.widget.Amount;
-import com.coinomi.wallet.ui.widget.SwipeRefreshLayout;
-import com.coinomi.wallet.util.ThrottlingWalletChangeListener;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.WalletConnectivityStatus;
+import com.bitcoinfinal.wallet.AddressBookProvider;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.widget.Amount;
+import com.bitcoinfinal.wallet.ui.widget.SwipeRefreshLayout;
+import com.bitcoinfinal.wallet.util.ThrottlingWalletChangeListener;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 import com.google.common.collect.Lists;
 
 import org.bitcoinj.core.Coin;
@@ -121,7 +121,7 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.coinomi.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.bitcoinfinal.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         if (getArguments() != null) {

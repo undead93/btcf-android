@@ -1,4 +1,4 @@
-package com.coinomi.wallet.service;
+package com.bitcoinfinal.wallet.service;
 
 import android.app.NotificationManager;
 import android.app.Service;
@@ -13,14 +13,14 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.text.format.DateUtils;
 
-import com.coinomi.core.network.ConnectivityHelper;
-import com.coinomi.core.network.ServerClients;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.WalletApplication;
+import com.bitcoinfinal.core.network.ConnectivityHelper;
+import com.bitcoinfinal.core.network.ServerClients;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.WalletApplication;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Transaction;

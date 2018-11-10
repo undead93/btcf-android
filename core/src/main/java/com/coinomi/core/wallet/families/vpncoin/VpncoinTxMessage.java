@@ -1,9 +1,9 @@
-package com.coinomi.core.wallet.families.vpncoin;
+package com.bitcoinfinal.core.wallet.families.vpncoin;
 
-import com.coinomi.core.messages.MessageFactory;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.families.bitcoin.BitTransaction;
+import com.bitcoinfinal.core.messages.MessageFactory;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitTransaction;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Transaction;
@@ -20,7 +20,7 @@ import java.util.zip.Inflater;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkArgument;
+import static com.bitcoinfinal.core.Preconditions.checkArgument;
 
 /**
  * @author John L. Jegutanis

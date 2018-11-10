@@ -1,4 +1,4 @@
-package com.coinomi.core.exceptions;
+package com.bitcoinfinal.core.exceptions;
 
 /**
  * Created by vbcs on 29/9/2015.

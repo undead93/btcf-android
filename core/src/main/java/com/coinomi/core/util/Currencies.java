@@ -1,4 +1,4 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
 import com.google.common.collect.ImmutableMap;
 

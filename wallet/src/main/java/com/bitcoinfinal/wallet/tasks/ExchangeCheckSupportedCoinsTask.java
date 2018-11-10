@@ -1,10 +1,10 @@
-package com.coinomi.wallet.tasks;
+package com.bitcoinfinal.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftException;
-import com.coinomi.wallet.WalletApplication;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftException;
+import com.bitcoinfinal.wallet.WalletApplication;
 
 /**
  * @author John L. Jegutanis

@@ -1,8 +1,8 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DogecoinMain;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.DogecoinMain;
 
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.crypto.BIP38PrivateKey;
@@ -27,7 +27,7 @@ public class SweepWalletTest {
     static final String BTC_MINI_ADDR = "1CciesT23BNionJeXrbxmjc7ywfiyM4oLW";
     static final String DOGE_BIP38_ADDR = "D5LBizi5ZzsVxwpfuFBaP7VSu4B1NRnx5c";
     static final String DOGE_BIP38_PRIV = "6PRWBkdj7oqcgu5TcNuqVXt51tcLG3ys6597WFwD2Qvmf8BRqJrgXaUBsu";
-    static final String BIP38_PASS = "coinomi";
+    static final String BIP38_PASS = "bitcoinfinal";
 
     @Test
     public void testWif() throws Exception {

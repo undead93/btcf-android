@@ -1,7 +1,7 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.bitcoinfinal.core.wallet.families.bitcoin;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.TransactionInput;

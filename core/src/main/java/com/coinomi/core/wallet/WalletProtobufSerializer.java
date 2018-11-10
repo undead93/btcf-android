@@ -1,15 +1,15 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.families.BitFamily;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.protos.Protos;
-import com.coinomi.core.util.KeyUtils;
-import com.coinomi.core.wallet.families.bitcoin.BitTransaction;
-import com.coinomi.core.wallet.families.bitcoin.OutPointOutput;
-import com.coinomi.core.wallet.families.nxt.NxtFamilyWallet;
-import com.coinomi.core.wallet.families.nxt.NxtFamilyWalletProtobufSerializer;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.families.BitFamily;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.protos.Protos;
+import com.bitcoinfinal.core.util.KeyUtils;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitTransaction;
+import com.bitcoinfinal.core.wallet.families.bitcoin.OutPointOutput;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtFamilyWallet;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtFamilyWalletProtobufSerializer;
 import com.google.common.base.Splitter;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.TextFormat;

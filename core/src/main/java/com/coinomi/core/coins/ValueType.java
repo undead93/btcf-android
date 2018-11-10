@@ -1,7 +1,7 @@
-package com.coinomi.core.coins;
+package com.bitcoinfinal.core.coins;
 
-import com.coinomi.core.coins.families.Families;
-import com.coinomi.core.util.MonetaryFormat;
+import com.bitcoinfinal.core.coins.families.Families;
+import com.bitcoinfinal.core.util.MonetaryFormat;
 
 import org.bitcoinj.core.Coin;
 

@@ -1,10 +1,10 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.ValueType;
-import com.coinomi.core.exceptions.TransactionBroadcastException;
-import com.coinomi.core.network.interfaces.ConnectionEventListener;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.ValueType;
+import com.bitcoinfinal.core.exceptions.TransactionBroadcastException;
+import com.bitcoinfinal.core.network.interfaces.ConnectionEventListener;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.crypto.KeyCrypter;

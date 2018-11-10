@@ -1,6 +1,6 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**

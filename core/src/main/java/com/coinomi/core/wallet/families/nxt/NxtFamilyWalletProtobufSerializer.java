@@ -15,11 +15,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.coinomi.core.wallet.families.nxt;
+package com.bitcoinfinal.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.protos.Protos;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.protos.Protos;
 import com.google.protobuf.ByteString;
 
 import org.bitcoinj.core.Sha256Hash;
@@ -243,7 +243,7 @@ final public class NxtFamilyWalletProtobufSerializer {
             pocket.setDescription(walletProto.getDescription());
         }
 
-        // TODO ready transactions? Check com.coinomi.core.wallet WalletPocketProtobufSerializer
+        // TODO ready transactions? Check com.bitcoinfinal.core.wallet WalletPocketProtobufSerializer
 
         return pocket;
     }

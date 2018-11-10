@@ -1,12 +1,12 @@
-package com.coinomi.core.wallet.families.nxt;
+package com.bitcoinfinal.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.nxt.Transaction;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractWallet;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.nxt.Transaction;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
 import com.google.common.collect.ImmutableList;
 
 import org.bitcoinj.core.Sha256Hash;
@@ -14,7 +14,7 @@ import org.bitcoinj.core.TransactionConfidence;
 
 import java.util.List;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
 
 /**
  * @author vbcs

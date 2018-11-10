@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.dialogs;
+package com.bitcoinfinal.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -15,15 +15,15 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.coinomi.core.exceptions.Bip44KeyLookAheadExceededException;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.core.wallet.WalletPocketHD;
-import com.coinomi.wallet.AddressBookProvider;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.DialogBuilder;
+import com.bitcoinfinal.core.exceptions.Bip44KeyLookAheadExceededException;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.WalletPocketHD;
+import com.bitcoinfinal.wallet.AddressBookProvider;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.DialogBuilder;
 
 import javax.annotation.Nullable;
 

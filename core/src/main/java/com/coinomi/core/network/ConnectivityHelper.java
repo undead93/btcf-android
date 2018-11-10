@@ -1,4 +1,4 @@
-package com.coinomi.core.network;
+package com.bitcoinfinal.core.network;
 
 /**
  * @author John L. Jegutanis

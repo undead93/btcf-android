@@ -1,13 +1,13 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.bitcoinfinal.core.wallet.families.bitcoin;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.messages.MessageFactory;
-import com.coinomi.core.messages.TxMessage;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.core.wallet.TransactionWatcherWallet;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.messages.MessageFactory;
+import com.bitcoinfinal.core.messages.TxMessage;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.core.wallet.TransactionWatcherWallet;
 import com.google.common.collect.ImmutableList;
 
 import org.bitcoinj.core.Sha256Hash;
@@ -27,8 +27,8 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author vbcs

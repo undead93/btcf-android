@@ -1,8 +1,8 @@
-package com.coinomi.stratumj;
+package com.bitcoinfinal.stratumj;
 
-import com.coinomi.stratumj.messages.BaseMessage;
-import com.coinomi.stratumj.messages.CallMessage;
-import com.coinomi.stratumj.messages.ResultMessage;
+import com.bitcoinfinal.stratumj.messages.BaseMessage;
+import com.bitcoinfinal.stratumj.messages.CallMessage;
+import com.bitcoinfinal.stratumj.messages.ResultMessage;
 
 import org.json.JSONException;
 import org.junit.Assert;

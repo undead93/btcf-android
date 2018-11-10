@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui.dialogs;
+package com.bitcoinfinal.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,10 +6,10 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.ui.DialogBuilder;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.ui.DialogBuilder;
 
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

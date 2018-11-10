@@ -1,16 +1,16 @@
-package com.coinomi.core.network;
+package com.bitcoinfinal.core.network;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.nxt.Convert;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.coins.nxt.NxtException;
-import com.coinomi.core.coins.nxt.TransactionImpl;
-import com.coinomi.core.network.interfaces.BlockchainConnection;
-import com.coinomi.core.network.interfaces.ConnectionEventListener;
-import com.coinomi.core.network.interfaces.TransactionEventListener;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.nxt.Convert;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.nxt.NxtException;
+import com.bitcoinfinal.core.coins.nxt.TransactionImpl;
+import com.bitcoinfinal.core.network.interfaces.BlockchainConnection;
+import com.bitcoinfinal.core.network.interfaces.ConnectionEventListener;
+import com.bitcoinfinal.core.network.interfaces.TransactionEventListener;
 
-import com.coinomi.core.wallet.families.nxt.NxtTransaction;
-import com.coinomi.stratumj.ServerAddress;
+import com.bitcoinfinal.core.wallet.families.nxt.NxtTransaction;
+import com.bitcoinfinal.stratumj.ServerAddress;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.Service;

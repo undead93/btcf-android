@@ -1,7 +1,7 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.protos.Protos;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.protos.Protos;
 import com.google.common.collect.ImmutableList;
 import com.google.protobuf.ByteString;
 

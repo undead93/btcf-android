@@ -1,8 +1,8 @@
-package com.coinomi.wallet.tasks;
+package com.bitcoinfinal.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.coinomi.wallet.Constants;
+import com.bitcoinfinal.wallet.Constants;
 import com.google.common.base.Charsets;
 
 import org.slf4j.Logger;

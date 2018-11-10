@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,12 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.coinomi.core.coins.Value;
-import com.coinomi.wallet.Configuration;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.ui.adaptors.FeesListAdapter;
-import com.coinomi.wallet.ui.dialogs.EditFeeDialog;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.wallet.Configuration;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.ui.adaptors.FeesListAdapter;
+import com.bitcoinfinal.wallet.ui.dialogs.EditFeeDialog;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

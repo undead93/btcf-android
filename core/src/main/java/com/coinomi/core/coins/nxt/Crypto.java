@@ -1,4 +1,4 @@
-package com.coinomi.core.coins.nxt;
+package com.bitcoinfinal.core.coins.nxt;
 
 import org.spongycastle.crypto.CipherParameters;
 import org.spongycastle.crypto.InvalidCipherTextException;

@@ -1,8 +1,8 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.ValueType;
-import com.coinomi.core.util.TypeUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.ValueType;
+import com.bitcoinfinal.core.util.TypeUtils;
 
 import org.bitcoinj.utils.Threading;
 

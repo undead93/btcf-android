@@ -1,15 +1,15 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.bitcoinfinal.core.wallet.families.bitcoin;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.BitFamily;
-import com.coinomi.core.util.TypeUtils;
-import com.coinomi.core.wallet.SendRequest;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.BitFamily;
+import com.bitcoinfinal.core.util.TypeUtils;
+import com.bitcoinfinal.core.wallet.SendRequest;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Transaction;
 
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**

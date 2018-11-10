@@ -1,6 +1,6 @@
-package com.coinomi.core.uri;
+package com.bitcoinfinal.core.uri;
 
-import com.coinomi.core.uri.CoinURIParseException;
+import com.bitcoinfinal.core.uri.CoinURIParseException;
 
 /**
  * <p>This exception occurs when a required field is detected (under the BIP21 rules) and fails

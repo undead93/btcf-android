@@ -1,11 +1,11 @@
-package com.coinomi.core.network;
+package com.bitcoinfinal.core.network;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.families.BitFamily;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.exceptions.UnsupportedCoinTypeException;
-import com.coinomi.core.network.interfaces.BlockchainConnection;
-import com.coinomi.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.families.BitFamily;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.exceptions.UnsupportedCoinTypeException;
+import com.bitcoinfinal.core.network.interfaces.BlockchainConnection;
+import com.bitcoinfinal.core.wallet.WalletAccount;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

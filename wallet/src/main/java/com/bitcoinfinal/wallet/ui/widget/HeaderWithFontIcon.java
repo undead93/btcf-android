@@ -1,12 +1,12 @@
-package com.coinomi.wallet.ui.widget;
+package com.bitcoinfinal.wallet.ui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.Fonts;
 
 /**
  * @author John L. Jegutanis
@@ -22,7 +22,7 @@ public class HeaderWithFontIcon extends LinearLayout {
 
         messageView = (TextView) findViewById(R.id.message);
         fontIconView = (TextView) findViewById(R.id.font_icon);
-        Fonts.setTypeface(fontIconView, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(fontIconView, Fonts.Font.bitcoinfinal_FONT_ICONS);
     }
 
     public void setFontIcon(int resid) {

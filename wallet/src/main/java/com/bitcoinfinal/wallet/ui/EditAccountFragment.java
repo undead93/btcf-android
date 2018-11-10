@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -10,14 +10,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
 
 import butterknife.ButterKnife;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.wallet.Constants.ARG_ACCOUNT_ID;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.wallet.Constants.ARG_ACCOUNT_ID;
 
 /**
  * @author John L. Jegutanis

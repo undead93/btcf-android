@@ -1,7 +1,7 @@
-package com.coinomi.core.wallet;
+package com.bitcoinfinal.core.wallet;
 
 
-import com.coinomi.core.protos.Protos;
+import com.bitcoinfinal.core.protos.Protos;
 import org.bitcoinj.core.BloomFilter;
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.Sha256Hash;
@@ -22,7 +22,7 @@ import org.bitcoinj.wallet.KeyBag;
 import org.bitcoinj.wallet.KeyChainEventListener;
 import org.bitcoinj.wallet.RedeemData;
 
-import com.coinomi.core.util.KeyUtils;
+import com.bitcoinfinal.core.util.KeyUtils;
 import com.google.common.collect.ImmutableList;
 import com.google.protobuf.ByteString;
 

@@ -1,12 +1,12 @@
-package com.coinomi.core.exchange.shapeshift;
+package com.bitcoinfinal.core.exchange.shapeshift;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DogecoinMain;
-import com.coinomi.core.coins.FiatValue;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
-import com.coinomi.core.util.ExchangeRateBase;
+import com.bitcoinfinal.core.coins.BitcoinMain;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.DogecoinMain;
+import com.bitcoinfinal.core.coins.FiatValue;
+import com.bitcoinfinal.core.coins.NuBitsMain;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
+import com.bitcoinfinal.core.util.ExchangeRateBase;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
-package com.coinomi.core;
+package com.bitcoinfinal.core;
 
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 import com.google.common.base.Joiner;
 
 import org.bitcoinj.crypto.MnemonicCode;

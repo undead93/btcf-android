@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -28,19 +28,19 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.Families;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.wallet.AddressBookProvider;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.ui.widget.CurrencyTextView;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.TimeUtils;
-import com.coinomi.wallet.util.WalletUtils;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.families.Families;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.wallet.AddressBookProvider;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.ui.widget.CurrencyTextView;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.TimeUtils;
+import com.bitcoinfinal.wallet.util.WalletUtils;
 
 import org.bitcoinj.core.TransactionConfidence;
 import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
@@ -215,11 +215,11 @@ public class TransactionsListAdapter extends BaseAdapter {
 
         final TextView rowDirectionText = (TextView) row.findViewById(R.id.transaction_row_direction_text);
         final TextView rowDirectionFontIcon = (TextView) row.findViewById(R.id.transaction_row_direction_font_icon);
-        Fonts.setTypeface(rowDirectionFontIcon, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(rowDirectionFontIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
         final TextView rowConfirmationsFontIcon = (TextView) row.findViewById(R.id.transaction_row_confirmations_font_icon);
-        Fonts.setTypeface(rowConfirmationsFontIcon, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(rowConfirmationsFontIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
         final TextView rowMessageFontIcon = (TextView) row.findViewById(R.id.transaction_row_message_font_icon);
-        Fonts.setTypeface(rowMessageFontIcon, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(rowMessageFontIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
         final TextView rowDate = (TextView) row.findViewById(R.id.transaction_row_time);
         final TextView rowLabel = (TextView) row.findViewById(R.id.transaction_row_label);
         final TextView rowAddress = (TextView) row.findViewById(R.id.transaction_row_address);

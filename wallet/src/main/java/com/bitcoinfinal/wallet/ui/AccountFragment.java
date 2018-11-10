@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -16,14 +16,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.coinomi.core.uri.CoinURI;
-import com.coinomi.core.uri.CoinURIParseException;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.util.Keyboard;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.uri.CoinURI;
+import com.bitcoinfinal.core.uri.CoinURIParseException;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.util.Keyboard;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,7 +33,7 @@ import javax.annotation.Nullable;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-import static com.coinomi.wallet.util.UiUtils.toastGenericError;
+import static com.bitcoinfinal.wallet.util.UiUtils.toastGenericError;
 
 /**
  * @author John L. Jegutanis

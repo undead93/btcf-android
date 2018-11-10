@@ -1,7 +1,7 @@
-package com.coinomi.wallet.tasks;
+package com.bitcoinfinal.wallet.tasks;
 
-import com.coinomi.core.exchange.shapeshift.ShapeShift;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.bitcoinfinal.core.exchange.shapeshift.ShapeShift;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

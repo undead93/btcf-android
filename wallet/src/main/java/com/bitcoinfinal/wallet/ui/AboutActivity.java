@@ -1,12 +1,12 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.util.Fonts;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

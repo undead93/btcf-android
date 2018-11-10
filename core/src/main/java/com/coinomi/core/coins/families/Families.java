@@ -1,6 +1,6 @@
-package com.coinomi.core.coins.families;
+package com.bitcoinfinal.core.coins.families;
 
-import com.coinomi.core.coins.ValueType;
+import com.bitcoinfinal.core.coins.ValueType;
 
 /**
  * @author John L. Jegutanis

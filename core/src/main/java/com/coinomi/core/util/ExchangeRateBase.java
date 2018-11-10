@@ -1,4 +1,4 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
 /**
  * Copyright 2014 Andreas Schildbach
@@ -18,9 +18,9 @@ package com.coinomi.core.util;
  */
 
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.ValueType;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.ValueType;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkState;

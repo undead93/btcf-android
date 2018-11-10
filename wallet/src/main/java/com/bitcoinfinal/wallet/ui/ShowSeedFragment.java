@@ -1,4 +1,4 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,12 +13,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.WalletApplication;
-import com.coinomi.wallet.util.Fonts;
-import com.coinomi.wallet.util.QrUtils;
-import com.coinomi.wallet.util.WeakHandler;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.WalletApplication;
+import com.bitcoinfinal.wallet.util.Fonts;
+import com.bitcoinfinal.wallet.util.QrUtils;
+import com.bitcoinfinal.wallet.util.WeakHandler;
 
 import org.bitcoinj.crypto.DeterministicKey;
 import org.bitcoinj.crypto.HDKeyDerivation;
@@ -28,7 +28,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.crypto.params.KeyParameter;
 
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis
@@ -101,11 +101,11 @@ public class ShowSeedFragment extends Fragment {
         seedLayout.setVisibility(View.GONE);
         seedView = (TextView) view.findViewById(R.id.seed);
         seedPasswordProtectedView = view.findViewById(R.id.seed_password_protected);
-        Fonts.setTypeface(view.findViewById(R.id.seed_password_protected_lock), Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(view.findViewById(R.id.seed_password_protected_lock), Fonts.Font.bitcoinfinal_FONT_ICONS);
         qrView = (ImageView) view.findViewById(R.id.qr_code_seed);
 
         TextView lockIcon = (TextView) view.findViewById(R.id.lock_icon);
-        Fonts.setTypeface(lockIcon, Fonts.Font.COINOMI_FONT_ICONS);
+        Fonts.setTypeface(lockIcon, Fonts.Font.bitcoinfinal_FONT_ICONS);
         lockIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

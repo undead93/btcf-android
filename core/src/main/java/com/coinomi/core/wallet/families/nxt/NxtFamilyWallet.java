@@ -1,28 +1,28 @@
-package com.coinomi.core.wallet.families.nxt;
+package com.bitcoinfinal.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.nxt.Convert;
-import com.coinomi.core.coins.nxt.NxtException;
-import com.coinomi.core.coins.nxt.Transaction;
-import com.coinomi.core.exceptions.TransactionBroadcastException;
-import com.coinomi.core.network.AddressStatus;
-import com.coinomi.core.network.BlockHeader;
-import com.coinomi.core.network.NxtServerClient;
-import com.coinomi.core.network.ServerClient;
-import com.coinomi.core.network.interfaces.BlockchainConnection;
-import com.coinomi.core.network.interfaces.TransactionEventListener;
-import com.coinomi.core.protos.Protos;
-import com.coinomi.core.util.KeyUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.AbstractTransaction;
-import com.coinomi.core.wallet.AbstractWallet;
-import com.coinomi.core.wallet.SendRequest;
-import com.coinomi.core.wallet.SignedMessage;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.core.wallet.WalletAccountEventListener;
-import com.coinomi.core.wallet.WalletConnectivityStatus;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.coins.nxt.Convert;
+import com.bitcoinfinal.core.coins.nxt.NxtException;
+import com.bitcoinfinal.core.coins.nxt.Transaction;
+import com.bitcoinfinal.core.exceptions.TransactionBroadcastException;
+import com.bitcoinfinal.core.network.AddressStatus;
+import com.bitcoinfinal.core.network.BlockHeader;
+import com.bitcoinfinal.core.network.NxtServerClient;
+import com.bitcoinfinal.core.network.ServerClient;
+import com.bitcoinfinal.core.network.interfaces.BlockchainConnection;
+import com.bitcoinfinal.core.network.interfaces.TransactionEventListener;
+import com.bitcoinfinal.core.protos.Protos;
+import com.bitcoinfinal.core.util.KeyUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.AbstractTransaction;
+import com.bitcoinfinal.core.wallet.AbstractWallet;
+import com.bitcoinfinal.core.wallet.SendRequest;
+import com.bitcoinfinal.core.wallet.SignedMessage;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.core.wallet.WalletAccountEventListener;
+import com.bitcoinfinal.core.wallet.WalletConnectivityStatus;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
@@ -49,8 +49,8 @@ import java.util.concurrent.Executor;
 
 import javax.annotation.Nullable;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkArgument;
 
 /**

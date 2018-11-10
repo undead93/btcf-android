@@ -1,6 +1,6 @@
-package com.coinomi.core.exceptions;
+package com.bitcoinfinal.core.exceptions;
 
-import com.coinomi.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.CoinType;
 
 /**
  * @author John L. Jegutanis

@@ -1,13 +1,13 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.coinomi.wallet.ui.widget.CoinListItem;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.bitcoinfinal.wallet.ui.widget.CoinListItem;
 
 import java.util.HashMap;
 import java.util.List;

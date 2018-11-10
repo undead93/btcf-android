@@ -1,13 +1,13 @@
-package com.coinomi.wallet.ui;
+package com.bitcoinfinal.wallet.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.coinomi.core.wallet.SendRequest;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.ExchangeHistoryProvider;
-import com.coinomi.wallet.R;
+import com.bitcoinfinal.core.wallet.SendRequest;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.ExchangeHistoryProvider;
+import com.bitcoinfinal.wallet.R;
 
 import javax.annotation.Nullable;
 

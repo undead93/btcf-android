@@ -1,11 +1,11 @@
-package com.coinomi.core.coins;
+package com.bitcoinfinal.core.coins;
 
 
-import com.coinomi.core.coins.families.Families;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.messages.MessageFactory;
-import com.coinomi.core.util.MonetaryFormat;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.families.Families;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.messages.MessageFactory;
+import com.bitcoinfinal.core.util.MonetaryFormat;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Coin;
@@ -141,7 +141,7 @@ abstract public class CoinType extends NetworkParameters implements ValueType, S
 
     /**
      * Returns a 1 coin of this type with the correct amount of units (satoshis)
-     * Use {@link com.coinomi.core.coins.CoinType:oneCoin}
+     * Use {@link com.bitcoinfinal.core.coins.CoinType:oneCoin}
      */
     @Deprecated
     public Coin getOneCoin() {

@@ -1,4 +1,4 @@
-package com.coinomi.core.coins.nxt;
+package com.bitcoinfinal.core.coins.nxt;
 
 /*
     Reed Solomon Encoding and Decoding for Nxt

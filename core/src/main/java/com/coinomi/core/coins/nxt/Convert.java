@@ -1,4 +1,4 @@
-package com.coinomi.core.coins.nxt;
+package com.bitcoinfinal.core.coins.nxt;
 
 /******************************************************************************
  * Copyright © 2013-2015 The Nxt Core Developers.                             *
@@ -19,9 +19,9 @@ package com.coinomi.core.coins.nxt;
 //import nxt.Constants;
 //import nxt.NxtException;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.families.Families;
-import com.coinomi.core.coins.families.NxtFamily;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.families.Families;
+import com.bitcoinfinal.core.coins.families.NxtFamily;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

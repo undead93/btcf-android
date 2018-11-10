@@ -1,9 +1,9 @@
-package com.coinomi.core.exchange.shapeshift.data;
+package com.bitcoinfinal.core.exchange.shapeshift.data;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exchange.shapeshift.ShapeShift;
-import com.coinomi.core.util.ExchangeRate;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exchange.shapeshift.ShapeShift;
+import com.bitcoinfinal.core.util.ExchangeRate;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,18 +17,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.coinomi.core.uri.CoinURI;
-import com.coinomi.core.uri.CoinURIParseException;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
-import com.coinomi.wallet.AddressBookProvider;
-import com.coinomi.wallet.Constants;
-import com.coinomi.wallet.R;
-import com.coinomi.wallet.ui.AccountDetailsActivity;
-import com.coinomi.wallet.ui.EditAccountFragment;
-import com.coinomi.wallet.ui.EditAddressBookEntryFragment;
+import com.bitcoinfinal.core.uri.CoinURI;
+import com.bitcoinfinal.core.uri.CoinURIParseException;
+import com.bitcoinfinal.core.util.GenericUtils;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.Wallet;
+import com.bitcoinfinal.core.wallet.WalletAccount;
+import com.bitcoinfinal.wallet.AddressBookProvider;
+import com.bitcoinfinal.wallet.Constants;
+import com.bitcoinfinal.wallet.R;
+import com.bitcoinfinal.wallet.ui.AccountDetailsActivity;
+import com.bitcoinfinal.wallet.ui.EditAccountFragment;
+import com.bitcoinfinal.wallet.ui.EditAddressBookEntryFragment;
 
 import org.acra.ACRA;
 import org.slf4j.Logger;

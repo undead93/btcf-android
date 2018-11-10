@@ -1,9 +1,9 @@
-package com.coinomi.core.util;
+package com.bitcoinfinal.core.util;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.wallet.AbstractAddress;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.exceptions.AddressMalformedException;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.wallet.families.bitcoin.BitAddress;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;
@@ -12,7 +12,7 @@ import org.bitcoinj.core.ScriptException;
 import org.bitcoinj.core.WrongNetworkException;
 import org.bitcoinj.script.Script;
 
-import static com.coinomi.core.Preconditions.checkArgument;
+import static com.bitcoinfinal.core.Preconditions.checkArgument;
 
 /**
  * @author John L. Jegutanis

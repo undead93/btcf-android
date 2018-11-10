@@ -1,4 +1,4 @@
-package com.coinomi.wallet.util;
+package com.bitcoinfinal.wallet.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

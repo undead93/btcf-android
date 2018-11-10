@@ -1,19 +1,19 @@
-package com.coinomi.core.exchange.shapeshift;
+package com.bitcoinfinal.core.exchange.shapeshift;
 
-import com.coinomi.core.coins.CoinID;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftAmountTx;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftEmail;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftException;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftLimit;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftNormalTx;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftRate;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftTime;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftTxStatus;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.bitcoinfinal.core.coins.CoinID;
+import com.bitcoinfinal.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.Value;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftAmountTx;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftEmail;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftException;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftLimit;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftNormalTx;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftRate;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftTime;
+import com.bitcoinfinal.core.exchange.shapeshift.data.ShapeShiftTxStatus;
+import com.bitcoinfinal.core.wallet.AbstractAddress;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -27,8 +27,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-import static com.coinomi.core.Preconditions.checkNotNull;
-import static com.coinomi.core.Preconditions.checkState;
+import static com.bitcoinfinal.core.Preconditions.checkNotNull;
+import static com.bitcoinfinal.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

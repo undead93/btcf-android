@@ -1,6 +1,6 @@
-package com.coinomi.core.network.interfaces;
+package com.bitcoinfinal.core.network.interfaces;
 
-import com.coinomi.core.coins.CoinType;
+import com.bitcoinfinal.core.coins.CoinType;
 
 /**
  * @author John L. Jegutanis
